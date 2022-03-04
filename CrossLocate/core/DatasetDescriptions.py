@@ -43,32 +43,32 @@ datasetSilhouettesV1 = {	'name': 'geoPose3K',
 					   		'info': 'geoPose3K_silhouette' }
 
 
-datasetSegments = {	'name': 'GeoPose3K_v2',
+datasetSegments = {	'name': 'Sparse',
 				   	'database': 'database_segments',
 				   	'queries': 'query_segments_result',
 				   	'meta': 'GeoPose3K_v2_segments' }
 
-datasetSilhouettes = {	'name': 'GeoPose3K_v2',
+datasetSilhouettes = {	'name': 'Sparse',
 					  	'database': 'database_silhouettes',
 					  	'queries': 'query_silhouettes_result',
 					  	'meta': 'GeoPose3K_v2_silhouettes' }
 
-datasetDepth = {	'name': 'GeoPose3K_v2',
+datasetDepth = {	'name': 'Sparse',
 					'database': 'database_depth',
 					'queries': 'query_depth_result',
 					'meta': 'GeoPose3K_v2_depth' }
 
-datasetOriginalToSegments = {	'name': 'GeoPose3K_v2',
+datasetOriginalToSegments = {	'name': 'Sparse',
 				   				'database': 'database_segments',
 				   				'queries': 'query_original_result',
 				   				'meta': 'GeoPose3K_v2_original_to_segments' }
 
-datasetOriginalToSilhouettes = {	'name': 'GeoPose3K_v2',
+datasetOriginalToSilhouettes = {	'name': 'Sparse',
 				   					'database': 'database_silhouettes',
 				   					'queries': 'query_original_result',
 				   					'meta': 'GeoPose3K_v2_original_to_silhouettes' }
 
-datasetOriginalToDepth = {		'name': 'GeoPose3K_v2',
+datasetOriginalToDepth = {		'name': 'Sparse',
 				   				'database': 'database_depth',
 				   				'queries': 'query_original_result',
 				   				'meta': 'GeoPose3K_v2_original_to_depth' }
@@ -85,38 +85,38 @@ datasetUniformSegments500 = {	'name': 'GeoPose3K_uniform',
 				   				'meta': 'GeoPose3K_uniform_segments_500m' }
 
 
-datasetSegmentsSwiss = {	'name': 'GeoPose3K_v2',
+datasetSegmentsSwiss = {	'name': 'Sparse',
 				   			'database': 'database_segments',
 				   			'queries': 'query_segments_result',
 				   			'meta': 'GeoPose3K_v2_segments_swiss' }
 
-datasetOriginalToSegmentsSwiss = {	'name': 'GeoPose3K_v2',
+datasetOriginalToSegmentsSwiss = {	'name': 'Sparse',
 				   					'database': 'database_segments',
 				   					'queries': 'query_original_result',
 				   					'meta': 'GeoPose3K_v2_original_to_segments_swiss' }
 
-datasetOriginalToSilhouettesSwiss = { 'name': 'GeoPose3K_v2',
+datasetOriginalToSilhouettesSwiss = { 'name': 'Sparse',
 									  'database': 'database_silhouettes',
 									  'queries': 'query_original_result',
 									  'meta': 'GeoPose3K_v2_original_to_silhouettes_swiss' }
 
-datasetOriginalToDepthSwiss = { 'name': 'GeoPose3K_v2',
+datasetOriginalToDepthSwiss = { 'name': 'Sparse',
 								'database': 'database_depth',
 								'queries': 'query_original_result',
 								'meta': 'GeoPose3K_v2_original_to_depth_swiss' }
 
 
-datasetSegmentsResolution = {	'name': 'GeoPose3K_v2',
+datasetSegmentsResolution = {	'name': 'Sparse',
 				   				'database': 'database_segments',
 				   				'queries': 'query_segments_resolution_result',
 				   				'meta': 'GeoPose3K_v2_segments_resolution' }
 
-datasetOriginalToSegmentsResolution = {	'name': 'GeoPose3K_v2',
+datasetOriginalToSegmentsResolution = {	'name': 'Sparse',
 				   						'database': 'database_segments',
 				   						'queries': 'query_original_resolution_result',
 				   						'meta': 'GeoPose3K_v2_original_to_segments_resolution' }
 
-datasetOriginalToSegmentsSwissResolution = { 'name': 'GeoPose3K_v2',
+datasetOriginalToSegmentsSwissResolution = { 'name': 'Sparse',
 											 'database': 'database_segments',
 											 'queries': 'query_original_resolution_result',
 											 'meta': 'GeoPose3K_v2_original_to_segments_swiss_resolution' }
@@ -127,144 +127,144 @@ datasetUniformOriginalToSegments500 = {	'name': 'GeoPose3K_uniform',
 				   						'meta': 'GeoPose3K_uniform_original_to_segments_500m' }
 
 
-datasetAlpsGP3KSegments = { 'name': 'Alps',
+datasetAlpsGP3KSegments = { 'name': 'Uniform',
 							'database': 'database_segments',
 							'queries': 'query_segments_result',
 							'meta': 'Alps_gp3k_segments' }
 
-datasetAlpsGP3KOriginalToSegments = { 	'name': 'Alps',
+datasetAlpsGP3KOriginalToSegments = { 	'name': 'Uniform',
 										'database': 'database_segments',
 										'queries': 'query_original_result',
 										'meta': 'Alps_gp3k_original_to_segments' }
 
-datasetAlpsPhotosToSegments = { 'name': 'Alps',
+datasetAlpsPhotosToSegments = { 'name': 'Uniform',
 								'database': 'database_segments',
 								'queries': 'query_photos_to_segments_result',
 								'meta': 'Alps_photos_to_segments' }
 
-datasetAlpsGP3KSegmentsCompact = {	'name': 'Alps',
+datasetAlpsGP3KSegmentsCompact = {	'name': 'Uniform',
 									'database': 'database_segments',
 									'queries': 'query_segments_result',
 									'meta': 'Alps_gp3k_segments_compact' }
 
-datasetAlpsGP3KOriginalToSegmentsCompact = { 	'name': 'Alps',
+datasetAlpsGP3KOriginalToSegmentsCompact = { 	'name': 'Uniform',
 												'database': 'database_segments',
 												'queries': 'query_original_result',
 												'meta': 'Alps_gp3k_original_to_segments_compact' }
 
-datasetAlpsPhotosToSegmentsCompact = {	'name': 'Alps',
+datasetAlpsPhotosToSegmentsCompact = {	'name': 'Uniform',
 										'database': 'database_segments',
 										'queries': 'query_photos_to_segments_result',
 										'meta': 'Alps_photos_to_segments_compact' }
 
-datasetAlpsPhotosToSegmentsResolution = { 'name': 'Alps',
+datasetAlpsPhotosToSegmentsResolution = { 'name': 'Uniform',
 										  'database': 'database_segments',
 										  'queries': 'query_photos_to_segments_resolution_result',
 										  'meta': 'Alps_photos_to_segments_resolution' }
 
-datasetAlpsPhotosToSegmentsResolutionCompact = { 'name': 'Alps',
+datasetAlpsPhotosToSegmentsResolutionCompact = { 'name': 'Uniform',
 												  'database': 'database_segments',
 												  'queries': 'query_photos_to_segments_resolution_result',
 												  'meta': 'Alps_photos_to_segments_resolution_compact' }
 
-datasetAlpsPhotosToSilhouettesCompact = { 'name': 'Alps',
+datasetAlpsPhotosToSilhouettesCompact = { 'name': 'Uniform',
 										  'database': 'database_silhouettes',
 										  'queries': 'query_photos_to_segments_result',
 										  'meta': 'Alps_photos_to_silhouettes_compact' }
 
-datasetAlpsPhotosToDepthCompact = { 'name': 'Alps',
+datasetAlpsPhotosToDepthCompact = { 'name': 'Uniform',
 									'database': 'database_depth',
 									'queries': 'query_photos_to_segments_result',
 									'meta': 'Alps_photos_to_depth_compact' }
 
-datasetAlpsPhotosToDepthResolutionCompact = { 'name': 'Alps',
+datasetAlpsPhotosToDepthResolutionCompact = { 'name': 'Uniform',
 											  'database': 'database_depth',
 											  'queries': 'query_photos_to_segments_resolution_result',
 											  'meta': 'Alps_photos_to_depth_compact' }
 
-datasetAlpsDatabaseSilhouettes = {	'name': 'Alps',
+datasetAlpsDatabaseSilhouettes = {	'name': 'Uniform',
 									'database': 'database_silhouettes',
 									'queries': '',
 									'meta': '' }
 
-datasetAlpsDatabaseDepth = {	'name': 'Alps',
+datasetAlpsDatabaseDepth = {	'name': 'Uniform',
 								'database': 'database_depth',
 								'queries': '',
 								'meta': '' }
 
 
-datasetAlpsCH1ToSegments = { 'name': 'Alps',
+datasetAlpsCH1ToSegments = { 'name': 'Uniform',
 							 'database': 'database_segments',
 							 'queries': 'query_CH1_to_segments_result',
 							 'meta': 'Alps_CH1_to_segments' }
 
-datasetAlpsCH1ToSegmentsResolution = { 'name': 'Alps',
+datasetAlpsCH1ToSegmentsResolution = { 'name': 'Uniform',
 									   'database': 'database_segments',
 									   'queries': 'query_CH1_to_segments_resolution_result',
 									   'meta': 'Alps_CH1_to_segments_resolution' }
 
-datasetAlpsCH1ToSilhouettes = { 'name': 'Alps',
+datasetAlpsCH1ToSilhouettes = { 'name': 'Uniform',
 								'database': 'database_silhouettes',
 								'queries': 'query_CH1_to_segments_result',
 								'meta': 'Alps_CH1_to_silhouettes' }
 
-datasetAlpsCH1ToDepth = { 'name': 'Alps',
+datasetAlpsCH1ToDepth = { 'name': 'Uniform',
 						  'database': 'database_depth',
 						  'queries': 'query_CH1_to_segments_result',
 						  'meta': 'Alps_CH1_to_depth' }
 
-datasetAlpsCH1ToDepthResolution = { 'name': 'Alps',
+datasetAlpsCH1ToDepthResolution = { 'name': 'Uniform',
 									'database': 'database_depth',
 									'queries': 'query_CH1_to_segments_resolution_result',
 									'meta': 'Alps_CH1_to_depth' }
 
 
-datasetAlpsCH2ToSegments = { 'name': 'Alps',
+datasetAlpsCH2ToSegments = { 'name': 'Uniform',
 							 'database': 'database_segments',
 							 'queries': 'query_CH2_to_segments_result',
 							 'meta': 'Alps_CH2_to_segments' }
 
-datasetAlpsCH2ToSegmentsResolution = { 'name': 'Alps',
+datasetAlpsCH2ToSegmentsResolution = { 'name': 'Uniform',
 									   'database': 'database_segments',
 									   'queries': 'query_CH2_to_segments_resolution_result',
 									   'meta': 'Alps_CH2_to_segments_resolution' }
 
-datasetAlpsCH2ToSegmentsExt = { 'name': 'Alps',
+datasetAlpsCH2ToSegmentsExt = { 'name': 'Uniform',
 								'database': 'database_segments',
 								'queries': 'query_CH2_to_segments_result',
 								'meta': 'Alps_CH2_to_segments_ext' }
 
-datasetAlpsCH2ToSegmentsExtResolution = { 'name': 'Alps',
+datasetAlpsCH2ToSegmentsExtResolution = { 'name': 'Uniform',
 										  'database': 'database_segments',
 										  'queries': 'query_CH2_to_segments_resolution_result',
 										  'meta': 'Alps_CH2_to_segments_ext_resolution' }
 
-datasetAlpsCH2ToSilhouettes = { 'name': 'Alps',
+datasetAlpsCH2ToSilhouettes = { 'name': 'Uniform',
 								'database': 'database_silhouettes',
 								'queries': 'query_CH2_to_segments_result',
 								'meta': 'Alps_CH2_to_silhouettes' }
 
-datasetAlpsCH2ToSilhouettesExt = { 'name': 'Alps',
+datasetAlpsCH2ToSilhouettesExt = { 'name': 'Uniform',
 								   'database': 'database_silhouettes',
 								   'queries': 'query_CH2_to_segments_result',
 								   'meta': 'Alps_CH2_to_silhouettes_ext' }
 
-datasetAlpsCH2ToDepth = { 'name': 'Alps',
+datasetAlpsCH2ToDepth = { 'name': 'Uniform',
 						  'database': 'database_depth',
 						  'queries': 'query_CH2_to_segments_result',
 						  'meta': 'Alps_CH2_to_depth' }
 
-datasetAlpsCH2ToDepthResolution = { 'name': 'Alps',
+datasetAlpsCH2ToDepthResolution = { 'name': 'Uniform',
 									'database': 'database_depth',
 									'queries': 'query_CH2_to_segments_resolution_result',
 									'meta': 'Alps_CH2_to_depth' }
 
-datasetAlpsCH2ToDepthExt = { 'name': 'Alps',
+datasetAlpsCH2ToDepthExt = { 'name': 'Uniform',
 							 'database': 'database_depth',
 							 'queries': 'query_CH2_to_segments_result',
 							 'meta': 'Alps_CH2_to_depth_ext' }
 
-datasetAlpsCH2ToDepthExtResolution = { 'name': 'Alps',
+datasetAlpsCH2ToDepthExtResolution = { 'name': 'Uniform',
 									   'database': 'database_depth',
 									   'queries': 'query_CH2_to_segments_resolution_result',
 									   'meta': 'Alps_CH2_to_depth_ext' }
