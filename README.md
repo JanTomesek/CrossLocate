@@ -8,8 +8,8 @@ This is the official repository for the WACV 2022 paper [CrossLocate](https://ie
 The work solves the task of determining the geographic origin of photographs captured in natural areas (e.g. mountains).
 
 **Authors**
-- [Jan Tome�ek](https://www.linkedin.com/in/jan-tome%C5%A1ek-95bb26149/) (itomesek@fit.vutbr.cz)
-- [Martin �ad�k](http://cadik.posvete.cz/) (cadik@fit.vutbr.cz)
+- [Jan Tomešek](https://www.linkedin.com/in/jan-tome%C5%A1ek-95bb26149/) (itomesek@fit.vutbr.cz)
+- [Martin Čadík](http://cadik.posvete.cz/) (cadik@fit.vutbr.cz)
 - Jan Brejcha
 
 CPhoto@FIT, Brno University of Technology, Czechia
@@ -17,7 +17,7 @@ CPhoto@FIT, Brno University of Technology, Czechia
 If you use the code or datasets in a scientific work, please, cite it:
 
 ```
-J. Tome�ek, M. �ad�k and J. Brejcha, 
+J. Tomešek, M. Čadík and J. Brejcha, 
 "CrossLocate: Cross-modal Large-scale Visual Geo-Localization in Natural Environments using Rendered Modalities," 
 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022, pp. 2193-2202, 
 doi: 10.1109/WACV51458.2022.00225.
@@ -25,7 +25,7 @@ doi: 10.1109/WACV51458.2022.00225.
 
 ```
 @INPROCEEDINGS{CrossLocate,  
-author={Tome�ek, Jan and �ad�k, Martin and Brejcha, Jan},  
+author={Tomešek, Jan and Čadík, Martin and Brejcha, Jan},  
 booktitle={2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},   
 title={CrossLocate: Cross-modal Large-scale Visual Geo-Localization in Natural Environments using Rendered Modalities},   
 year={2022},  
